@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="tryit.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <audio src="Alexis Ffrench - Still Life.mp3" autoplay="autoplay" volume="-10000"> </audio> -->
+    <h1 align="center"> snake !  </h1>
+    <DIV class="marg">
+    <div class="board">
+        <div class="underwrap1">
+            <div class="scoreboard">
+                <div id="scoreboardinfo1">try it ! </div>
+                <div id="scoreboardinfo2">your record is 0 </div>
+            </div>
+        </div>
+    </div>  
+   <div class="wrap1"> 
+        <div class="timer"> <span> time</span></div>
+        <div class="stop"><button onclick="game.settime()"> start </button></div>
+   </div>
+   <div class="upr">
+    <div class="stroka a"> <div class="up butn1" onclick="moove.changeMainDirection(this)"></div></div>
+    <div class="stroka b">
+        <div class="up butn2" onclick="moove.changeMainDirection(this)"></div>
+        <div class="up butn3" onclick="moove.changeMainDirection(this)"></div>
+</div>
+    <div class="stroka c"><div class="up butn4" onclick="moove.changeMainDirection(this)"></div></div>
+   
+    
+    
+   </div>
+</DIV>
+    <script src="tryit.js"></script>
+</body>
+</html>

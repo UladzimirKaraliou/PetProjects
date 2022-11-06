@@ -1,0 +1,132 @@
+.board{
+    height: 800px;
+
+    width: 800px;
+    display: grid;
+    grid-template-columns: repeat(8,100px);
+}
+.inner{
+    width: 100px;
+    height: 100px;
+    border-style: dashed;
+    border-width: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8rem;
+    user-select: none;
+    box-sizing: border-box;
+}
+.snake{
+    width: 90px;
+    height: 90px;
+    position:absolute;
+    background-size: cover;
+    background-position: -40px;
+    background-image: url('https://w7.pngwing.com/pngs/763/417/png-transparent-snake-computer-icons-snakes-animals-cobra-animal.png');
+    background-color: inherit;
+}
+.last{
+    position: absolute;
+    
+}
+.kid{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    background-position:center;
+    background-size: cover;
+    background-image: url('https://img2.freepng.ru/20181120/lhi/kisspng-clip-art-snakes-computer-icons-vector-graphics-por-5bf4b24be6f962.7157738115427630839461.jpg') ;
+}
+.wrap1{
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.underwrap1{
+    position: absolute;
+    width: inherit;
+    height: 800px;
+    z-index: 1;
+    background-color: black;
+    /* display: none;     */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.scoreboard{
+    width: 400px;
+    height: 150px;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5rem;
+}
+.timer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 50px;
+    border: 1px solid black;
+    font-size: 2rem;
+    
+}
+.stop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 50px;
+    margin-left: 20px;
+    border: 1px solid black;
+}
+.stop button{
+    transform: scale(1.5);
+}
+.upr{
+    margin-left: 500PX;
+    
+    width: 100%;
+    height: 50px;
+display: flex;
+flex-direction: column;
+    margin-top: 20px;
+}
+.up{
+
+   width: 0;
+   height: 0;
+   
+}
+.stroka{
+    justify-content: center;
+    height: max-content;
+    width: 280px;
+    display: flex;
+    padding: 5px;
+}
+.b{
+    display: flex;
+    justify-content: space-around;
+}
+.butn1{
+    border: 30px solid transparent; border-bottom: 30px solid green;
+}
+.butn2{
+    border: 30px solid transparent; border-right: 30px solid green;
+
+}
+.butn3{
+    border: 30px solid transparent; border-left: 30px solid green;
+
+}
+.butn4{
+    border: 30px solid transparent; border-top: 30px solid green;
+}
+.marg{
+    margin-left: 20%;
+}
+
